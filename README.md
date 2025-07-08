@@ -1,12 +1,32 @@
-# React + Vite
+# 🎬 ระบบจองตั๋วภาพยนตร์ (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+โปรเจกต์นี้เป็นส่วนของ **Frontend** สำหรับระบบจองตั๋วหนังออนไลน์  
+ผู้ใช้งานสามารถเลือกภาพยนตร์ เลือกรอบฉาย เลือกที่นั่ง และทำการจองได้ผ่านเว็บไซต์
 
-Currently, two official plugins are available:
+> ⚠️ หมายเหตุ: ส่วนของ Backend กำลังอยู่ระหว่างการพัฒนา
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 ลิงก์ตัวอย่างการใช้งาน (Live URL)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [คลิกที่นี่เพื่อดูเว็บไซต์จริง](https://686cca1cef402dbb95537660--pub-movie.netlify.app/)  
+
+---
+
+## ✨ ฟีเจอร์เด่น
+
+- แสดงภาพยนตร์ที่กำลังฉายและภาพยนตร์ที่จะเข้าฉายเร็ว ๆ นี้
+- เลือกรอบฉายของภาพยนตร์แต่ละเรื่อง
+- เลือกที่นั่งแบบ Interactive (แสดงสถานะว่าง/ไม่ว่าง)
+- แสดงหน้าสรุปและยืนยันการจอง
+- รองรับการแสดงผลทั้งบนคอมพิวเตอร์และมือถือ (Responsive Design)
+
+---
+
+## 🛠️ เทคโนโลยีที่ใช้
+
+- **Frontend Framework:** React.js
+- **ระบบ Routing:** React Router
+- **การจัดการสถานะ (State):** useState 
+- **ระบบ UI:** Tailwind CSS 
+- **API:** เชื่อมต่อ REST API (อยู่ระหว่างเชื่อมกับ Backend จริง)
